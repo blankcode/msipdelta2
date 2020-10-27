@@ -80,7 +80,7 @@ clean_up() {
 };
 
 ## Rewrote the GIT func by hand...
-git() {
+git_add_commit_push() {
   # GIT add new files and commit
   git add --all;
   git commit -m "Automated Update: $DATE";
@@ -121,4 +121,4 @@ v6changes;
 # Cleanup the tmp files
 clean_up;
 # Do GIT Stuff
-git;
+git_add_commit_push;
