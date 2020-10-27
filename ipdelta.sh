@@ -109,7 +109,9 @@ resolve_this() {
 # Get ready.
 make_rdy;
 # Start the whole
-resolve_this $MAIN_REC;
+for REC in $MAIN_REC;
+  do resolve_this $REC;
+  done
 # IPv4 Changes
 v4changes;
 # IPv4 Changes
