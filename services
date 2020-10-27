@@ -4,7 +4,7 @@ ProtonMail _spf.protonmail.ch
 MessageLabs spf.messagelabs.com
 Symantec symantec.net
 Salesforce _spf.salesforce.com
-JIRA "_spf.atlassian.net mail-us.atlassian.net mail-eu.atlassian.net
+JIRA "_spf.atlassian.net mail-us.atlassian.net mail-eu.atlassian.net"
 SendGrid sendgrid.net
 MailChimp servers.mcsv.net
 MarkeTo mktomail.com
