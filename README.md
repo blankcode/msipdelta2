@@ -2,7 +2,7 @@
 
 IP Delta checks, resolves and parses the output for SPF DNS record. It then is committed to github.
 
-## Lists are in CIDR format
+## Lists are in [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) format
 
 - 10.0.0.0/8 (10.0.0.0 ... 10.255.255.255)
 
