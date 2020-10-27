@@ -12,12 +12,8 @@
 
 
 # Wheres, whats and who
-#SERVICE_NAME="$1";
-#MAIN_REC=$2;
-
-# Test Data for Debugging
-SERVICE_NAME="Google";
-MAIN_REC="_spf.google.com";
+SERVICE_NAME="$1";
+MAIN_REC=$2;
 
 # When 
 DATE="$(date +"%Y%m%d-%H%M%S%z")";
