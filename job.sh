@@ -10,7 +10,7 @@ git_add_commit_push() {
 };
 
 cat ./services | while read -r service;
-  do ./ipdelta.sh $service;
+  do ./ipdelta.sh $service; echo '############'
   done;
 
 # Do GIT Stuff
