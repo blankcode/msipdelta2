@@ -25,6 +25,7 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
   - [x] MailChimp [[servers.mcsv.net](servers.mcsv.net)]
   - [x] MailGun [[spf1.mailgun.org](spf1.mailgun.org)], [[spf2.mailgun.org](spf2.mailgun.org)]
   - [x] MailJet [[spf.mailjet.com](spf.mailjet.com)]
+    - MailJet has been purchased by MailGun
   - [x] MarkeTo [[mktomail.com](mktomail.com)]
   - [x] SendGrid [[sendgrid.net](sendgrid.net)]
 
