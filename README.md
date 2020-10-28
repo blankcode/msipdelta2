@@ -19,14 +19,14 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
 - **Non-Mail Service Providers**<br>(Vastly automated and uses Email as a primary method to communicate)
   - [x] Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
   - [x] JIRA [[jira.com](jira.com)]
-  - [ ] ServiceNow [[\_spfinc1.servicenow.com](_spfinc1.servicenow.com)]
-  - [ ] ZenDesk [[mail.zendesk.com](mail.zendesk.com)]
+  - [x] ServiceNow [[\_spfinc1.servicenow.com](_spfinc1.servicenow.com)]
+  - [x] ZenDesk [[mail.zendesk.com](mail.zendesk.com)]
 - **Bluk Mail Services**<br>(Rarely Legitimate Mail)
   - [x] SendGrid [[sendgrid.net](sendgrid.net)]
   - [x] MailChimp [[servers.mcsv.net](servers.mcsv.net)]
   - [x] MarkeTo [[mktomail.com](mktomail.com)]
-  - [ ] MailGun [[spf1.mailgun.org](spf1.mailgun.org)], [[spf2.mailgun.org](spf2.mailgun.org)]
-  - [ ] MailJet [[spf.mailjet.com](spf.mailjet.com)]
+  - [x] MailGun [[spf1.mailgun.org](spf1.mailgun.org)], [[spf2.mailgun.org](spf2.mailgun.org)]
+  - [x] MailJet [[spf.mailjet.com](spf.mailjet.com)]
 
 Contact me on GitHub about doing this for other services, it's not hard to set up at all.
 
