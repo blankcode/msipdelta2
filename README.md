@@ -13,7 +13,7 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
 - **Primary Business Mail Providers**<br>(Mailbox Providers)
   - [x] Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
   - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
-- **Secondary Business Mail Providers**<br>(Filtering and Security)
+- **Secondary Business Mail Providers**<br>(Filtering and Security)<br>These may not be valid as I have very little knowledge of them.
   - [x] MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
   - [x] Symantec [[symantec.net](symantec.net)]
   - [ ] MimeCast
