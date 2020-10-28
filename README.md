@@ -8,23 +8,33 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
 
 ## Currently Monitored Networks
 
-- **Primary Business Mail Providers (Mailbox Providers)**
-  - Google Email Services (GApps) [[\_spf.google.com](_spf.google.com)]
-
-## Sevices to come
-
+- **Primary Business Mail Providers\***<br>(Mailbox Providers)
+  - [x] Google Email Services (GApps) [[\_spf.google.com](_spf.google.com)]
 - **Primary Business Mail Providers**<br>(Mailbox Providers)
-  - Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
-  - ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
+  - [x] Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
+  - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
 - **Secondary Business Mail Providers**<br>(Filtering and Security)
-  - MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
-  - Symantec [[symantec.net](symantec.net)]
+  - [x] MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
+  - [x] Symantec [[symantec.net](symantec.net)]
 - **Non-Mail Service Providers**<br>(Vastly automated and uses Email as a primary method to communicate)
-  - Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
-  - JIRA [[\_spf.atlassian.net](_spf.atlassian.net), [mail-us.atlassian.net](mail-us.atlassian.net), [mail-eu.atlassian.net](mail-eu.atlassian.net)]
+  - [x] Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
+  - [x] JIRA [[jira.com](jira.com)]
+  - [ ] ServiceNow [[\_spfinc1.servicenow.com](_spfinc1.servicenow.com)]
+  - [ ] ZenDesk [[mail.zendesk.com](mail.zendesk.com)]
 - **Bluk Mail Services**<br>(Rarely Legitimate Mail)
-  - SendGrid [[sendgrid.net](sendgrid.net)]
-  - MailChimp [[servers.mcsv.net](servers.mcsv.net)]
-  - MarkeTo [[mktomail.com](mktomail.com)]
+  - [x] SendGrid [[sendgrid.net](sendgrid.net)]
+  - [x] MailChimp [[servers.mcsv.net](servers.mcsv.net)]
+  - [x] MarkeTo [[mktomail.com](mktomail.com)]
+  - [ ] MailGun [[spf1.mailgun.org](spf1.mailgun.org)], [[spf2.mailgun.org](spf2.mailgun.org)]
+  - [ ] MailJet [[spf.mailjet.com](spf.mailjet.com)]
 
 Contact me on GitHub about doing this for other services, it's not hard to set up at all.
+
+1. Open a new Issue.
+2. Provide the Name of the Service ("JIRA")
+3. Provide the Main SPF Record ("\_spf.atlassian.net")
+4. Provide what type of service this is.
+   - Mailbox Provider (MBX)
+   - Mail Tranfer Agent (MTA)
+   - Non-Mail Service Providers ("JIRA")
+   - Bulk Mail Sender ("Sendgrid")
