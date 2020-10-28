@@ -16,7 +16,8 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
 - **Secondary Business Mail Providers**<br>(Filtering and Security)
   - [x] MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
   - [x] Symantec [[symantec.net](symantec.net)]
-- **Non-Mail Service Providers**<br>(Vastly automated and uses Email as a primary method to communicate)
+  - [ ] MimeCast
+- **Non-Mail Service Providers**<br>(Vastly Automated and uses Email as a Primary Method to Communicate)
   - [x] Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
   - [x] JIRA [[jira.com](jira.com)]
   - [x] ServiceNow [[\_spfinc1.servicenow.com](_spfinc1.servicenow.com)]
