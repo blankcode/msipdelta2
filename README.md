@@ -10,24 +10,23 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
 
 - **Primary Business Mail Providers**<br>(Mailbox Providers)
   - [x] Google Email Services (GApps) [[\_spf.google.com](_spf.google.com)]
-- **Primary Business Mail Providers**<br>(Mailbox Providers)
   - [x] Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
   - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
 - **Secondary Business Mail Providers**<br>(Filtering and Security)<br>These may not be valid as I have very little knowledge of them.
+  - [ ] MimeCast
   - [x] MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
   - [x] Symantec [[symantec.net](symantec.net)]
-  - [ ] MimeCast
 - **Non-Mail Service Providers**<br>(Vastly Automated and uses Email as a Primary Method to Communicate)
-  - [x] Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
   - [x] JIRA [[jira.com](jira.com)]
+  - [x] Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
   - [x] ServiceNow [[\_spfinc1.servicenow.com](_spfinc1.servicenow.com)]
   - [x] ZenDesk [[mail.zendesk.com](mail.zendesk.com)]
 - **Bluk Mail Services**<br>(Rarely Legitimate Mail)
-  - [x] SendGrid [[sendgrid.net](sendgrid.net)]
   - [x] MailChimp [[servers.mcsv.net](servers.mcsv.net)]
-  - [x] MarkeTo [[mktomail.com](mktomail.com)]
   - [x] MailGun [[spf1.mailgun.org](spf1.mailgun.org)], [[spf2.mailgun.org](spf2.mailgun.org)]
   - [x] MailJet [[spf.mailjet.com](spf.mailjet.com)]
+  - [x] MarkeTo [[mktomail.com](mktomail.com)]
+  - [x] SendGrid [[sendgrid.net](sendgrid.net)]
 
 ## To Have a Service Added
 
