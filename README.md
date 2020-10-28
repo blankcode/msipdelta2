@@ -32,10 +32,10 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
 
 Contact me on GitHub about doing this for other services, it's not hard to set up at all.
 
-1. Open a new Issue.
+1. Open a New Issue.
 2. Provide the Name of the Service ("JIRA")
 3. Provide the Main SPF Record ("\_spf.atlassian.net")
-4. Provide what type of service this is.
+4. Provide What Type of Service this is.
    - Mailbox Provider (MBX)
    - Mail Tranfer Agent (MTA)
    - Non-Mail Service Providers ("JIRA")
