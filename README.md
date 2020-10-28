@@ -29,6 +29,8 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
   - [x] MailGun [[spf1.mailgun.org](spf1.mailgun.org)], [[spf2.mailgun.org](spf2.mailgun.org)]
   - [x] MailJet [[spf.mailjet.com](spf.mailjet.com)]
 
+## To Have a Service Added
+
 Contact me on GitHub about doing this for other services, it's not hard to set up at all.
 
 1. Open a new Issue.
