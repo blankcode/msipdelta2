@@ -8,7 +8,7 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
 
 ## Currently Monitored Networks
 
-- **Primary Business Mail Providers\***<br>(Mailbox Providers)
+- **Primary Business Mail Providers**<br>(Mailbox Providers)
   - [x] Google Email Services (GApps) [[\_spf.google.com](_spf.google.com)]
 - **Primary Business Mail Providers**<br>(Mailbox Providers)
   - [x] Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
