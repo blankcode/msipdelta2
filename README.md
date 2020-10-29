@@ -1,6 +1,6 @@
 # Mail Services IP Delta<br>Change Log and Import Lists
 
-We can dig/nslookup DNS records farely easily. Have you ever wished you know what the IPs for a sender were before now? This project keeps a running history of the IPs listed in the SPF text records for the services noted below.
+We can dig/nslookup DNS records fairly easily. Have you ever wished you know what the IPs for a sender were before now? This project keeps a running history of the IPs listed in the SPF text records for the services noted below.
 
 ## Lists are in [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) format
 
