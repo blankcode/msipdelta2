@@ -1,5 +1,8 @@
 # Call ipdelta.sh on each service in the "service" file
 
+# When 
+DATE="$(date +"%Y%m%d-%H%M%S%z")";
+
 ## Rewrote the GIT func by hand...
 git_add_commit_push() {
   # GIT add new files and commit

@@ -15,9 +15,6 @@
 SERVICE_NAME="$1";
 MAIN_REC=$2;
 
-# When 
-DATE="$(date +"%Y%m%d-%H%M%S%z")";
-
 # directories
 DOMAIN_DIR="./$SERVICE_NAME";
 TMP_FOLDER="$DOMAIN_DIR/tmp";
