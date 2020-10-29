@@ -1,6 +1,6 @@
 # Mail Services IP Delta<br>Change Log and Import Lists
 
-IP Delta checks, resolves and parses the output for SPF DNS record. It then is committed to github.
+We can dig/nslookup DNS records farely easily. Have you ever wished you know what the IPs for a sender were before now? This project keeps a running history of the IPs listed in the SPF text records for the services noted below.
 
 ## Lists are in [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) format
 
@@ -14,6 +14,7 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
   - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
 - **Secondary Business Mail Providers**<br>(Filtering and Security)
   - [x] MimeCast Global [[\_netblocks.mimecast.com](_netblocks.mimecast.com)]
+  - By Region
     - [x] MimeCast US [[us.\_netblocks.mimecast.com](us._netblocks.mimecast.com)]
     - [x] MimeCast EU [[eu.\_netblocks.mimecast.com](eu._netblocks.mimecast.com)]
     - [x] MimeCast DE [[de.\_netblocks.mimecast.com](de._netblocks.mimecast.com)]
