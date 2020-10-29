@@ -1,5 +1,5 @@
 Google_Email_Services _spf.google.com
-JIRA jira.com
+JIRA _spf.atlassian.net
 MailChimp servers.mcsv.net
 MailGun-1 spf1.mailgun.org
 MailGun-2 spf2.mailgun.org
@@ -7,8 +7,14 @@ MailJet spf.mailjet.com
 MarkeTo mktomail.com
 MessageLabs spf.messagelabs.com
 Microsoft_Office_365_and_Azure spf.protection.outlook.com
+MimeCast_GL _netblocks.mimecast.com
+MimeCast_US us._netblocks.mimecast.com
+MimeCast_EU eu._netblocks.mimecast.com
+MimeCast_DE de._netblocks.mimecast.com
+MimeCast_CA ca._netblocks.mimecast.com
+MimeCast_ZA za._netblocks.mimecast.com
+MimeCast_AU au._netblocks.mimecast.com
 ProtonMail _spf.protonmail.ch
 SendGrid sendgrid.net
 ServiceNow _spfinc1.servicenow.com
-Symantec symantec.net
 ZenDesk mail.zendesk.com

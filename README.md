@@ -12,12 +12,17 @@ IP Delta checks, resolves and parses the output for SPF DNS record. It then is c
   - [x] Google Email Services (GApps) [[\_spf.google.com](_spf.google.com)]
   - [x] Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
   - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
-- **Secondary Business Mail Providers**<br>(Filtering and Security)<br>These may not be valid as I have very little knowledge of them.
-  - [ ] MimeCast
+- **Secondary Business Mail Providers**<br>(Filtering and Security)
+  - [x] MimeCast Global [[\_netblocks.mimecast.com](_netblocks.mimecast.com)]
+    - [x] MimeCast US [[us.\_netblocks.mimecast.com](us._netblocks.mimecast.com)]
+    - [x] MimeCast EU [[eu.\_netblocks.mimecast.com](eu._netblocks.mimecast.com)]
+    - [x] MimeCast DE [[de.\_netblocks.mimecast.com](de._netblocks.mimecast.com)]
+    - [x] MimeCast CA [[ca.\_netblocks.mimecast.com](ca._netblocks.mimecast.com)]
+    - [x] MimeCast ZA [[za.\_netblocks.mimecast.com](za._netblocks.mimecast.com)]
+    - [x] MimeCast AU [[au.\_netblocks.mimecast.com](au._netblocks.mimecast.com)]
   - [x] MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
-  - [x] Symantec [[symantec.net](symantec.net)]
 - **Non-Mail Service Providers**<br>(Vastly Automated and uses Email as a Primary Method to Communicate)
-  - [x] JIRA [[jira.com](jira.com)]
+  - [x] JIRA [[\_spf.atlassian.net](_spf.atlassian.net)]
   - [x] Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
   - [x] ServiceNow [[\_spfinc1.servicenow.com](_spfinc1.servicenow.com)]
   - [x] ZenDesk [[mail.zendesk.com](mail.zendesk.com)]
