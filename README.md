@@ -44,6 +44,6 @@ Contact me on GitHub about doing this for other services, it's not hard to set u
 3. Provide the Main SPF Record ("\_spf.atlassian.net")
 4. Provide What Type of Service this is.
    - Mailbox Provider (MBX)
-   - Mail Tranfer Agent (MTA)
+   - Mail Transfer Agent (MTA)
    - Non-Mail Service Providers ("JIRA")
    - Bulk Mail Sender ("Sendgrid")
