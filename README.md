@@ -47,4 +47,3 @@ Contact me on GitHub about doing this for other services, it's not hard to set u
    - Mail Tranfer Agent (MTA)
    - Non-Mail Service Providers ("JIRA")
    - Bulk Mail Sender ("Sendgrid")
-     .
