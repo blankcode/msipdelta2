@@ -1,6 +1,6 @@
 # Mail Services IP Delta<br>Change Log and Import Lists
 
-We can dig/nslookup DNS records fairly easily. Have you ever wished you know what the IPs for a sender were before now? This project keeps a running history of the IPs listed in the SPF text records for the services noted below.
+We can dig/nslookup DNS records fairly easily but, have you ever wished you knew what the IPs for a sender were before now? Or just want to automate adding the service IPs to a system easily? This project keeps a current list of the IPv4 and IPv6 addresses and keeps a running history of the IPs listed in the SPF text records for the services noted below. I've made the code public for review and even private deployment.
 
 ## Lists are in [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) format
 
