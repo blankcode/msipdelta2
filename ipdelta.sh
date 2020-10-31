@@ -91,13 +91,13 @@ resolve_this() {
   # testing phase "What is this result?"
   for result in $return; do
     # its an include resolve it
-    [[ $result == *"include:"* ]] && resolve_this $(echo $result | cut -d: -f2) ||
+    [[ $result == *"include:"* ]] && { resolve_this $(echo $result | cut -d: -f2); } ||
       # its an redirect resolve it
-      [[ $result == *"redirect:"* ]] && resolve_this $(echo $result | cut -d: -f2) ||
+      [[ $result == *"redirect:"* ]] && { resolve_this $(echo $result | cut -d: -f2); } ||
         # it a IPv4 send it to the IPv4 tmp file
-        [[ $result == "ip4:"* ]] && echo $result | sed 's/ip4://g' >> $V4TMP ||
+        [[ $result == "ip4:"* ]] && { echo $result | sed 's/ip4://g' >> $V4TMP; } ||
           # it a IPv6 send it to the IPv6 tmp file
-          [[ $result == "ip6:"* ]] && echo $result | sed 's/ip6://g' >> $V6TMP
+          [[ $result == "ip6:"* ]] && { echo $result | sed 's/ip6://g' >> $V6TMP; };
     done;
 };
 
