@@ -1,7 +1,8 @@
 #!/bin/bash
 # Call ipdelta.sh on each service in the "service" file
 
-[[ (wget -q --spider http://google.com) == 0 ]] || { echo "No Connection!"; exit 1; };
+wget -q --spider http://google.com
+[[ $? == 0 ]] || { echo "No Connection!"; exit 1; };
 
 # When 
 DATE="$(date +"%Y%m%d-%H%M%S%z")";
