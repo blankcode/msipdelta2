@@ -6,6 +6,12 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
 
 - 10.0.0.0/8 (10.0.0.0 ... 10.255.255.255)
 
+## When do updates occur?
+
+- Updates are via cron job from a non public server.
+  These are performed at 30 minute past 0 6 12 and 18 hrs daily.
+  - 30 0,6,12,18 \* \* \* ~/msipdelta/job.sh &>/dev/null
+
 ## Currently Monitored Networks
 
 - **Primary Business Mail Providers**<br>(Mailbox Providers)
