@@ -10,6 +10,7 @@
 # ./ipdelta.sh "JIRA" "_spf.atlassian.net mail-us.atlassian.net mail-eu.atlassian.net"
 # ./ipdelta.sh "Google" "_spf.google.com"
 
+cd /root/msipdelta2;
 
 # Wheres, whats and who
 SERVICE_NAME="$1";

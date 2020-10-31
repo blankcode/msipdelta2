@@ -1,6 +1,8 @@
 #!/bin/bash
 # Call ipdelta.sh on each service in the "service" file
 
+cd /root/msipdelta2;
+
 wget -q --spider http://google.com
 [[ $? == 0 ]] || { echo "No Connection!"; exit 1; };
 
