@@ -95,11 +95,14 @@ resolve_this() {
       # its an redirect resolve it
       [[ $result == *"redirect:"* ]] && resolve_this $(echo $result | cut -d: -f2) ||
         # it a IPv4 send it to the IPv4 tmp file
-        [[ $result == *"ip4:"* ]] && echo $result | sed 's/ip4://g' >> $V4TMP ||
+        [[ $result == "ip4:"* ]] && echo $result | sed 's/ip4://g' >> $V4TMP ||
           # it a IPv6 send it to the IPv6 tmp file
-          [[ $result == *"ip6:"* ]] && echo $result | sed 's/ip6://g' >> $V6TMP
+          [[ $result == "ip6:"* ]] && echo $result | sed 's/ip6://g' >> $V6TMP
     done;
 };
+
+"v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/14 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/48 include:spfd.protection.outlook.com -all"
+
 
 ## main
 # git pull; # Updates from somewhere else?
