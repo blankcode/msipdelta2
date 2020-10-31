@@ -2,3 +2,5 @@
 
 cd /home/root/msipdelta
 git pull
+
+exit 0
