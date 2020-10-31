@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 # Mail Services IP Delta 2.0
   # By Brian Blankenship
@@ -107,6 +107,7 @@ resolve_this() {
 ## main
 # git pull; # Updates from somewhere else?
 # Get ready.
+clean_up;
 make_rdy;
 # Start the whole
 for REC in $MAIN_REC;
