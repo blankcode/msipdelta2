@@ -1,10 +1,12 @@
 #!/bin/bash
 # Call ipdelta.sh on each service in the "service" file
 
+[[ (wget -q --spider http://google.com) == 0 ]] || { echo "No Connection!"; exit 1; };
+
 # When 
 DATE="$(date +"%Y%m%d-%H%M%S%z")";
 
-## Rewrote the GIT func by hand...
+# GIT Stuff
 git_add_commit_push() {
   # GIT add new files and commit
   git add --all;
@@ -14,7 +16,7 @@ git_add_commit_push() {
 };
 
 cat ./services | while read -r service;
-  do ./ipdelta.sh $service; echo '############'
+  do ./ipdelta.sh $service; echo '############';
   done;
 
 # Do GIT Stuff
