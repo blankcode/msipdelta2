@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 # Mail Services IP Delta 2.0
   # By Brian Blankenship

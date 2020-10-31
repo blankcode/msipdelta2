@@ -1,3 +1,4 @@
+#!/bin/bash
 # Call ipdelta.sh on each service in the "service" file
 
 # When 
