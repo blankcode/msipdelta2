@@ -10,7 +10,7 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
 
 - Updates are via cron job from a non public server.
   These are performed at 30 minute past 0 6 12 and 18 hrs daily.
-  - 30 0,6,12,18 \* \* \* ~/msipdelta/job.sh &>/dev/null
+  - 30 0,6,12,18 \* \* \* ~/msipdelta/job.sh 2>/dev/null
 
 ## Currently Monitored Networks
 
