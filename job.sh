@@ -9,6 +9,10 @@ wget -q --spider http://google.com
 # When 
 DATE="$(date +"%Y%m%d-%H%M%S%z")";
 
+lastRun() {
+  echo -ne "$DATE" > lastRun
+  }
+
 # GIT Stuff
 git_add_commit_push() {
   # GIT add new files and commit
