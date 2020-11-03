@@ -10,7 +10,7 @@ wget -q --spider http://google.com
 DATE="$(date +"%Y%m%d-%H%M%S%z")";
 
 lastRun() {
-  echo -ne "$DATE" > lastRun
+  echo -ne "$DATE" > /root/msipdelta/lastRun
   }
 
 # GIT Stuff
