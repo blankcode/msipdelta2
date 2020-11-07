@@ -86,7 +86,7 @@ git_add_commit_push() {
 resolve_this() {
   # resolve the presented domain
   #return=$(dig +short TXT $1)
-  return=$(dig +short TXT $1 | grep spf1 | perl -pe 's/"v=spf1 //g' | perl -pe 's/ .all"//g');
+  return=$(dig +short TXT $1 | grep "v=spf1" | perl -pe 's/"v=spf1 //g' | perl -pe 's/ .all"//g');
   # clear $results just in case
   results="";
   # testing phase "What is this result?"
