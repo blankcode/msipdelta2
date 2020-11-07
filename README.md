@@ -8,8 +8,8 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
 
 ## When do updates occur?
 
-- Updates are via cron job from a non public server.
-  These are performed at 30 minute past 0 6 12 and 18 hrs daily.
+- Updates are via cron job from a non public server.<br>
+  These are performed at 30 minute past 00 06 12 and 18 hrs daily.
   - 30 0,6,12,18 \* \* \* ~/msipdelta/job.sh 2>/dev/null
 
 ## Currently Monitored Networks
@@ -17,16 +17,16 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
 - **Primary Business Mail Providers**<br>(Mailbox Providers)
   - [x] Google Email Services (GApps) [[\_spf.google.com](_spf.google.com)]
   - [x] Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
-  - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
+  - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)] (Just because I wanted more the O365 and and GApps in there.)
 - **Secondary Business Mail Providers**<br>(Filtering and Security)
   - [x] MimeCast Global [[\_netblocks.mimecast.com](_netblocks.mimecast.com)]
-  - By Region
-    - [x] MimeCast US [[us.\_netblocks.mimecast.com](us._netblocks.mimecast.com)]
-    - [x] MimeCast EU [[eu.\_netblocks.mimecast.com](eu._netblocks.mimecast.com)]
-    - [x] MimeCast DE [[de.\_netblocks.mimecast.com](de._netblocks.mimecast.com)]
-    - [x] MimeCast CA [[ca.\_netblocks.mimecast.com](ca._netblocks.mimecast.com)]
-    - [x] MimeCast ZA [[za.\_netblocks.mimecast.com](za._netblocks.mimecast.com)]
-    - [x] MimeCast AU [[au.\_netblocks.mimecast.com](au._netblocks.mimecast.com)]
+    - By Region
+      - [x] MimeCast US [[us.\_netblocks.mimecast.com](us._netblocks.mimecast.com)]
+      - [x] MimeCast EU [[eu.\_netblocks.mimecast.com](eu._netblocks.mimecast.com)]
+      - [x] MimeCast DE [[de.\_netblocks.mimecast.com](de._netblocks.mimecast.com)]
+      - [x] MimeCast CA [[ca.\_netblocks.mimecast.com](ca._netblocks.mimecast.com)]
+      - [x] MimeCast ZA [[za.\_netblocks.mimecast.com](za._netblocks.mimecast.com)]
+      - [x] MimeCast AU [[au.\_netblocks.mimecast.com](au._netblocks.mimecast.com)]
   - [x] MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
 - **Non-Mail Service Providers**<br>(Vastly Automated and uses Email as a Primary Method to Communicate)
   - [x] JIRA [[\_spf.atlassian.net](_spf.atlassian.net)]
