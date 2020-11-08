@@ -121,5 +121,3 @@ v4changes;
 v6changes;
 # Cleanup the tmp files
 clean_up;
-# Do GIT Stuff
-#git_add_commit_push;

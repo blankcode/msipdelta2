@@ -15,5 +15,4 @@ clean_log () {
 for LOG_NAME in $LOGS; do 
     clean_log $LOG_NAME
   done;
-
-
+  
