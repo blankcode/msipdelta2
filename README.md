@@ -1,9 +1,10 @@
-![BASH](https://img.shields.io/badge/BASH-Shell%20Script-blue)
-![License](https://badgen.net/npm/license/lodash)
-
-![Last Commit](https://badgen.net/github/last-commit/micromatch/micromatch)
-
 # Mail Services IP Delta<br>Change Log and Import Lists
+
+![BASH](https://img.shields.io/badge/BASH-Shell%20Script-blue)
+![Last_Commit](https://badgen.net/github/last-commit/blankcode/msipdelta2)
+![Open_Issues](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)
+
+![License](https://badgen.net/github/license/blankcode/msipdelta2)
 
 We can dig/nslookup DNS records fairly easily but, have you ever wished you knew what the IPs for a sender were before now? Or just want to automate adding the service IPs to a system easily? This project keeps a current list of the IPv4 and IPv6 addresses and keeps a running history of the IPs listed in the SPF text records for the services noted below. I've made the code public for review and even private deployment.
 
@@ -14,8 +15,8 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
 ## When do updates occur?
 
 - Updates are via cron job from a non public server.<br>
-  These are performed at 30 minute past 00 06 12 and 18 hrs daily.
-  - 30 0,6,12,18 \* \* \* ~/msipdelta/job.sh 2>/dev/null
+  These are performed at 00 06 12 and 18 hrs daily.
+  - 0 0,6,12,18 \* \* \* ~/msipdelta/job.sh 2>/dev/null
 
 ## Currently Monitored Networks
 
