@@ -1,6 +1,6 @@
 # Mail Services IP Delta<br>Change Log and Import Lists
 
-![Terminal](https://badgen.net/badge/icon/BASH?icon=terminal&label)
+![Language](https://badgen.net/badge/icon/BASH?icon=terminal&label)
 ![Last_Commit](https://badgen.net/github/last-commit/blankcode/msipdelta2)
 ![Open_Issues](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)
 
