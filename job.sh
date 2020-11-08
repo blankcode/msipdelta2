@@ -8,6 +8,7 @@ wget -q --spider http://google.com
 
 # When 
 DATE="$(date +"%Y%m%d-%H%M%S%z")";
+START=$(date -d "$1" +%s) # Place at the beginning of the script.
 
 lastRun() {
   echo -ne "$DATE" > /root/msipdelta/lastRun
@@ -25,6 +26,12 @@ git_add_commit_push() {
 cat ./services | while read -r service;
   do ./ipdelta.sh $service; echo '############';
   done;
+
+# Run time
+  # Place near the end of your script.
+  NOW=$(date +%s)
+  SEC=$(($NOW - $START))
+  echo "$(date +"%Y%m%d-%H%M%S%z"): Run time was $SEC Seconds"
 
 # Do GIT Stuff
 git_add_commit_push;

@@ -5,10 +5,10 @@
   # While they did not work on this directly (well yet) I want to thank:
   # William Hofferbert, Dan Jackson, Eva Perman, Josh Kaplan and, Shaun Biggs.
   # I've learned a lot for you guys. Thank you all so much.
-  # Pre-Reqs: BASH, Git, MD5Sum, Internet Access
+  # Pre-Reqs: BASH, Git, MD5Sum, dig, Internet Access
 
-# ./ipdelta.sh "JIRA" "_spf.atlassian.net mail-us.atlassian.net mail-eu.atlassian.net"
-# ./ipdelta.sh "Google" "_spf.google.com"
+# Usage:
+#   ./ipdelta.sh "Google" "_spf.google.com"
 
 cd /root/msipdelta2;
 
@@ -105,9 +105,6 @@ resolve_this() {
     done;
     sleep .5
 };
-
-"v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/14 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/48 include:spfd.protection.outlook.com -all"
-
 
 ## main
 # git pull; # Updates from somewhere else?
