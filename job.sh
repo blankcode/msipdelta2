@@ -10,9 +10,7 @@ wget -q --spider http://google.com
 DATE="$(date +"%Y%m%d-%H%M%S%z")";
 START=$(date -d "$1" +%s) # Place at the beginning of the script.
 
-lastRun() {
-  echo -ne "$DATE" > /root/msipdelta/lastRun
-  }
+lastRun() { echo -ne "$DATE" > /root/msipdelta2/LAST_RUN; };
 
 # GIT Stuff
 git_add_commit_push() {

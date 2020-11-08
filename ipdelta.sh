@@ -99,11 +99,11 @@ resolve_this() {
         [[ $result == "ip4:"* ]] && { echo $result | sed 's/ip4://g' >> $V4TMP; } || {
           # it a IPv6 send it to the IPv6 tmp file
           [[ $result == "ip6:"* ]] && { echo $result | sed 's/ip6://g' >> $V6TMP; };
+          };
         };
       };
-    };
     done;
-    sleep .5
+    sleep 1
 };
 
 ## main
