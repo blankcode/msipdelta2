@@ -44,4 +44,4 @@ main() {
   git_add_commit_push;
 };
 
-main >> ./var/log/msipdelta2.$LOG_DATE.log
+main >> ~/msipdelta2/var/log/msipdelta2.$LOG_DATE.log

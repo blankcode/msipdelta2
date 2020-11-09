@@ -23,4 +23,4 @@ main() {
     done;
 };
 
-main >> ./var/log/log_clean.$LOG_DATE.log
+main >> ~/msipdelta2/var/log/log_clean.$LOG_DATE.log

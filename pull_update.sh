@@ -15,4 +15,4 @@ main() {
   exit 0;
 };
 
-main >> ./var/log/package_update.$LOG_DATE.log
+main >> ~/msipdelta2/var/log/package_update.$LOG_DATE.log
