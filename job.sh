@@ -6,6 +6,7 @@ LOG_DATE="$(date +"%Y%m%d")";
 main() {
   cd /root/msipdelta2;
 
+  # Is there internet?8569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569
   wget -q --spider http://google.com
   [[ $? == 0 ]] || { echo "No Connection!"; exit 1; };
 
@@ -34,6 +35,8 @@ main() {
     NOW=$(date +%s)
     SEC=$(($NOW - $START))
     echo "$(date +"%Y%m%d-%H%M%S%z"): Run time was $SEC Seconds"
+
+  lastRun
 
   # Do GIT Stuff
   git_add_commit_push;
