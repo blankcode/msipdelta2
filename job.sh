@@ -8,7 +8,7 @@ LOG_DATE="$(date +"%Y%m%d")";
 main() {
   cd /root/msipdelta2;
 
-  # Is there internet?8569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569569
+  # Is there internet?
   wget -q --spider http://google.com
   [[ $? == 0 ]] || { echo "No Connection!"; exit 1; };
 
