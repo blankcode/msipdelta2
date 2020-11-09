@@ -2,6 +2,8 @@
 # Call ipdelta.sh on each service in the "service" file
 
 LOG_DATE="$(date +"%Y%m%d")";
+# Log dir? If non then create it/
+(ls ~/msipdelta2/var/log > /dev/null) || mkdir -P ~/msipdelta2/var/log;
 
 main() {
   cd /root/msipdelta2;
