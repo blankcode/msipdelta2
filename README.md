@@ -62,7 +62,7 @@ Contact me on GitHub about doing this for other services, it's not hard to set u
    - Non-Mail Service Providers ("JIRA")
    - Bulk Mail Sender ("Sendgrid")
 
-In setup like this one:
+In setup like the one below:
 
 - Mailboxes, CRM, Ticketing System and, a Bulk Mailer are in the cloud.<br>(O365/GApps, SalesForce, JIRA and, SendGrid)
 - You also have an On Prem Mail filtering clister
