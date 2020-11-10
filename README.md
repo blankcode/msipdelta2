@@ -35,14 +35,15 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
       - [x] MimeCast AU [[au.\_netblocks.mimecast.com](au._netblocks.mimecast.com)]
   - [x] MessageLabs [[spf.messagelabs.com](spf.messagelabs.com)]
 - **Non-Mail Service Providers**<br>(Vastly Automated and uses Email as a Primary Method to Communicate)
+  - [x] Constant Contact [[spf.constantcontact.com](spf.constantcontact.com)]
   - [x] JIRA [[\_spf.atlassian.net](_spf.atlassian.net)]
   - [x] Salesforce [[\_spf.salesforce.com](_spf.salesforce.com)]
   - [x] ServiceNow [[\_spfinc1.servicenow.com](_spfinc1.servicenow.com)]
-  - [x] ZenDesk [[mail.zendesk.com](mail.zendesk.com)]
+  - [x] ZenDesk [[zendesk.com](zendesk.com)]
 - **Bluk Mail Services**<br>(Rarely Legitimate Mail)
-  - [x] Constant Contact [[spf.constantcontact.com](spf.constantcontact.com)]
   - [x] MailChimp [[servers.mcsv.net](servers.mcsv.net)]
   - [x] MailGun [[spf1.mailgun.org](spf1.mailgun.org)], [[spf2.mailgun.org](spf2.mailgun.org)]
+    - I'd like to find a single master record for mailgun if anyone knows of one.
   - [x] MailJet [[spf.mailjet.com](spf.mailjet.com)]
     - MailJet has been purchased by MailGun
   - [x] MarkeTo [[mktomail.com](mktomail.com)]
@@ -60,3 +61,18 @@ Contact me on GitHub about doing this for other services, it's not hard to set u
    - Mail Transfer Agent (MTA)
    - Non-Mail Service Providers ("JIRA")
    - Bulk Mail Sender ("Sendgrid")
+
+In setup like this one:
+
+- Mailboxes, CRM, Ticketing System and, a Bulk Mailer are in the cloud.<br>(O365/GApps, SalesForce, JIRA and, SendGrid)
+- You also have an On Prem Mail filtering clister
+- Many mailflows use cloud services but, route them through a common final server. The filtering cluster for example.
+  - That means only your IPs need to be in your SPF Record. This is a means of limiting the address creep that happens eventually as more and more services are added.
+
+Mail Flows:
+
+- User > MBA > On Prem Filter > Internet
+- Application/Web Server (Cloud or On Prem) > On Prem Filter > Internet
+- Bulk Mailers > On Prem Filter > MBA/Internet
+
+![Example Mail Flow](./Example%20Mail%20Flow.png)
