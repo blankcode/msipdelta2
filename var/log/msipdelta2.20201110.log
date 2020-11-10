@@ -120,9 +120,4 @@ removed './ServiceNow/tmp/IPv4_tmp'
 removed './ServiceNow/tmp/IPv6_tmp'
 removed directory './ServiceNow/tmp'
 ############
-20201109-233233+0000: Run time was 84753 Seconds
-[master 0e0e1c4] Automated Update: 20201109-233151+0000
- 3 files changed, 124 insertions(+)
- create mode 100644 LAST_RUN
- create mode 100644 var/log/log_clean.20201109.log
- create mode 100644 var/log/msipdelta2.20201109.log
+20201110-000055+0000: Run time was 55 Seconds
