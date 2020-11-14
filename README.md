@@ -9,7 +9,7 @@
 
 ![Commits](https://badgen.net/github/commits/blankcode/msipdelta2)
 
-![Open_Issues](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)
+[![](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=)
 
 ![License](https://badgen.net/github/license/blankcode/msipdelta2)
 
