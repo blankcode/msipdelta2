@@ -7,8 +7,7 @@
 
 ## Help!
 
-I want to try to accomodate as many services that are valid for recievers as I can! <br>
-Please open some [Service Add Requests](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=). Please only request the addition of services you WANT to to allow relay for.
+I want to try to accomodate as many services that are valid for recievers as I can! Please open some [Service Add Requests](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=). Please only request the addition of services you WANT to to allow relay for.
 
 DO NOT use these list for Safe/Block Lists
 
@@ -94,6 +93,6 @@ Mail Flows:
 - Application/Web Server (Cloud or On Prem) > On Prem Filter > Internet
 - Bulk Mailers > On Prem Filter > MBA/Internet
 
-**These lists  are meant to be imported into your MTA's (Mail Transfer Agent's) Allowed Relay list.**
+**These lists are meant to be imported into your MTA's (Mail Transfer Agent's) Allowed Relay list.**
 
 ![Example Mail Flow](./Example%20Mail%20Flow.png)
