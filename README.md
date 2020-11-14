@@ -9,7 +9,7 @@
 
 I want to try to accomodate as many services that are valid for recievers as I can! Please open some [Service Add Requests](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=). Please only request the addition of services you WANT to to allow relay for.
 
-**DO NOT** use these list for Safe/Block Lists
+**DO NOT** use these lists for Safe/Block Lists
 
 ## [![](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=)
 
