@@ -1,7 +1,14 @@
 # Mail Services IP Delta<br>Change Log and Import Lists
 
 ![Language](https://badgen.net/badge/icon/BASH?icon=terminal&label)
+![GitHub top language](https://img.shields.io/github/languages/top/blankcode/msipdelta2)
+![VSCodium](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)
+![awesome](https://badgen.net/badge/icon/awesome?icon=awesome&label)
+
 ![Last_Commit](https://badgen.net/github/last-commit/blankcode/msipdelta2)
+
+![Commits](https://badgen.net/github/commits/blankcode/msipdelta2)
+
 ![Open_Issues](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)
 
 ![License](https://badgen.net/github/license/blankcode/msipdelta2)
