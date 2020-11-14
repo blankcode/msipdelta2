@@ -5,11 +5,18 @@
 ![VSCodium](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)
 ![awesome](https://badgen.net/badge/icon/awesome?icon=awesome&label)
 
+## Help!
+
+I want to try to accomodate as many services that are valid for recievers as I can! <br>
+Please open some [Service Add Requests](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=). Please only request the addition of services you WANT to to allow relay for.
+
+DO NOT use these list for Safe/Block Lists
+
+## [![](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=)
+
 ![Last_Commit](https://badgen.net/github/last-commit/blankcode/msipdelta2)
 
 ![Commits](https://badgen.net/github/commits/blankcode/msipdelta2)
-
-[![](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=)
 
 ![License](https://badgen.net/github/license/blankcode/msipdelta2)
 
@@ -30,7 +37,8 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
 - **Primary Business Mail Providers**<br>(Mailbox Providers)
   - [x] Google Email Services (GApps) [[\_spf.google.com](_spf.google.com)]
   - [x] Microsoft Office 365 and Azure [[spf.protection.outlook.com](spf.protection.outlook.com)]
-  - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)] (Just because I wanted more the O365 and and GApps in there.)
+  - [x] ProtonMail [[\_spf.protonmail.ch](_spf.protonmail.ch)]
+    - (Just because I wanted something other than O365 and GApps in there.)
 - **Secondary Business Mail Providers**<br>(Filtering and Security)
   - [x] MimeCast Global [[\_netblocks.mimecast.com](_netblocks.mimecast.com)]
     - By Region
@@ -60,7 +68,9 @@ We can dig/nslookup DNS records fairly easily but, have you ever wished you knew
 
 Contact me on GitHub about doing this for other services, it's not hard to set up at all.
 
-1. Open a New Issue.
+[![](https://badgen.net/github/label-issues/blankcode/msipdelta2/Service%20Add%20Request/open)](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=)
+
+1. Open a New [Service Add Request](https://github.com/blankcode/msipdelta2/issues/new?assignees=blankcode&labels=Service+Add+Request&template=service-add-request.md&title=).
 2. Provide the Name of the Service ("JIRA")
 3. Provide the Main SPF Record ("\_spf.atlassian.net")
 4. Provide What Type of Service this is.
@@ -68,6 +78,8 @@ Contact me on GitHub about doing this for other services, it's not hard to set u
    - Mail Transfer Agent (MTA)
    - Non-Mail Service Providers ("JIRA")
    - Bulk Mail Sender ("Sendgrid")
+
+## Why you might want to employ "Mail Services IP Delta"
 
 In setup like the one below:
 
@@ -81,5 +93,7 @@ Mail Flows:
 - User > MBA > On Prem Filter > Internet
 - Application/Web Server (Cloud or On Prem) > On Prem Filter > Internet
 - Bulk Mailers > On Prem Filter > MBA/Internet
+
+**These lists  are meant to be imported into your MTA's (Mail Transfer Agent's) Allowed Relay list.**
 
 ![Example Mail Flow](./Example%20Mail%20Flow.png)
