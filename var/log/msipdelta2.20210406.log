@@ -1,0 +1,129 @@
+mkdir: created directory './Constant_Contact/tmp'
+ - No IPv4 Changes for Constant_Contact
+ - No IPv6 Changes for Constant_Contact
+removed './Constant_Contact/tmp/IPv4_tmp'
+removed directory './Constant_Contact/tmp'
+############
+mkdir: created directory './Google_Email_Services/tmp'
+ - No IPv4 Changes for Google_Email_Services
+ - No IPv6 Changes for Google_Email_Services
+removed './Google_Email_Services/tmp/IPv4_tmp'
+removed './Google_Email_Services/tmp/IPv6_tmp'
+removed directory './Google_Email_Services/tmp'
+############
+mkdir: created directory './JIRA/tmp'
+ - No IPv4 Changes for JIRA
+ - No IPv6 Changes for JIRA
+removed './JIRA/tmp/IPv4_tmp'
+removed directory './JIRA/tmp'
+############
+mkdir: created directory './MailChimp/tmp'
+ - No IPv4 Changes for MailChimp
+ - No IPv6 Changes for MailChimp
+removed './MailChimp/tmp/IPv4_tmp'
+removed directory './MailChimp/tmp'
+############
+mkdir: created directory './MailGun-1/tmp'
+ - No IPv4 Changes for MailGun-1
+ - No IPv6 Changes for MailGun-1
+removed directory './MailGun-1/tmp'
+############
+mkdir: created directory './MailGun-2/tmp'
+ - No IPv4 Changes for MailGun-2
+ - No IPv6 Changes for MailGun-2
+removed directory './MailGun-2/tmp'
+############
+mkdir: created directory './MailJet/tmp'
+ - No IPv4 Changes for MailJet
+ - No IPv6 Changes for MailJet
+removed './MailJet/tmp/IPv4_tmp'
+removed directory './MailJet/tmp'
+############
+mkdir: created directory './MarkeTo/tmp'
+ - No IPv4 Changes for MarkeTo
+ - No IPv6 Changes for MarkeTo
+removed './MarkeTo/tmp/IPv4_tmp'
+removed directory './MarkeTo/tmp'
+############
+mkdir: created directory './MessageLabs/tmp'
+ - No IPv4 Changes for MessageLabs
+ - No IPv6 Changes for MessageLabs
+removed './MessageLabs/tmp/IPv4_tmp'
+removed directory './MessageLabs/tmp'
+############
+mkdir: created directory './Microsoft_Office_365_and_Azure/tmp'
+ - No IPv4 Changes for Microsoft_Office_365_and_Azure
+ - No IPv6 Changes for Microsoft_Office_365_and_Azure
+removed './Microsoft_Office_365_and_Azure/tmp/IPv4_tmp'
+removed './Microsoft_Office_365_and_Azure/tmp/IPv6_tmp'
+removed directory './Microsoft_Office_365_and_Azure/tmp'
+############
+mkdir: created directory './MimeCast_GL/tmp'
+ - No IPv4 Changes for MimeCast_GL
+ - No IPv6 Changes for MimeCast_GL
+removed './MimeCast_GL/tmp/IPv4_tmp'
+removed directory './MimeCast_GL/tmp'
+############
+mkdir: created directory './MimeCast_US/tmp'
+ - No IPv4 Changes for MimeCast_US
+ - No IPv6 Changes for MimeCast_US
+removed './MimeCast_US/tmp/IPv4_tmp'
+removed directory './MimeCast_US/tmp'
+############
+mkdir: created directory './MimeCast_EU/tmp'
+ - No IPv4 Changes for MimeCast_EU
+ - No IPv6 Changes for MimeCast_EU
+removed './MimeCast_EU/tmp/IPv4_tmp'
+removed directory './MimeCast_EU/tmp'
+############
+mkdir: created directory './MimeCast_DE/tmp'
+ - No IPv4 Changes for MimeCast_DE
+ - No IPv6 Changes for MimeCast_DE
+removed './MimeCast_DE/tmp/IPv4_tmp'
+removed directory './MimeCast_DE/tmp'
+############
+mkdir: created directory './MimeCast_CA/tmp'
+ - No IPv4 Changes for MimeCast_CA
+ - No IPv6 Changes for MimeCast_CA
+removed './MimeCast_CA/tmp/IPv4_tmp'
+removed directory './MimeCast_CA/tmp'
+############
+mkdir: created directory './MimeCast_ZA/tmp'
+ - No IPv4 Changes for MimeCast_ZA
+ - No IPv6 Changes for MimeCast_ZA
+removed './MimeCast_ZA/tmp/IPv4_tmp'
+removed directory './MimeCast_ZA/tmp'
+############
+mkdir: created directory './MimeCast_AU/tmp'
+ - No IPv4 Changes for MimeCast_AU
+ - No IPv6 Changes for MimeCast_AU
+removed './MimeCast_AU/tmp/IPv4_tmp'
+removed directory './MimeCast_AU/tmp'
+############
+mkdir: created directory './ProtonMail/tmp'
+ - No IPv4 Changes for ProtonMail
+ - No IPv6 Changes for ProtonMail
+removed './ProtonMail/tmp/IPv4_tmp'
+removed directory './ProtonMail/tmp'
+############
+mkdir: created directory './SendGrid/tmp'
+ - No IPv4 Changes for SendGrid
+ - No IPv6 Changes for SendGrid
+removed './SendGrid/tmp/IPv4_tmp'
+removed directory './SendGrid/tmp'
+############
+mkdir: created directory './ServiceNow/tmp'
+ - No IPv4 Changes for ServiceNow
+'./ServiceNow/tmp/IPv4_tmp' -> './ServiceNow/list/IPv4'
+'./ServiceNow/tmp/IPv4_tmp' -> './ServiceNow/source_archive/IPv4_'
+ - No IPv6 Changes for ServiceNow
+removed './ServiceNow/tmp/IPv4_tmp'
+removed directory './ServiceNow/tmp'
+############
+mkdir: created directory './ZenDesk/tmp'
+ - No IPv4 Changes for ZenDesk
+ - No IPv6 Changes for ZenDesk
+removed './ZenDesk/tmp/IPv4_tmp'
+removed directory './ZenDesk/tmp'
+############
+20210406-000042+0000: Run time was 42 Seconds
